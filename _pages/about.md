@@ -9,7 +9,8 @@ profile:
   image: Photo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p> No. 66, Hougang St., Shilin Dist </p>
+    <p> No. 66, Hougang St </p>
+    <p> Shilin Dist </p>
     <p> Taipei City, 111, Taiwan </p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"

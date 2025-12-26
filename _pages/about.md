@@ -18,4 +18,4 @@ I am a Robotics Research Engineer at <a href='https://ai.inventec.com/en/'>Inven
 
 I am currently applying for Fall 2026 M.S. programs in the US, with a focus on robotics and embodied intelligence.
 
-Previously, I recieved my B.Sc. in Mechanical Engineering from <a href='https://www.ntu.edu.tw/english/'>National Taiwan University.</a>
+Previously, I recieved my B.Sc. in Mechanical Engineering from <a href='https://www.ntu.edu.tw/english/'>National Taiwan University.</a> During my undergraduate studies, I focused on mechanical design across various robotic systems, including wind-powered vehicles, UAVs, a billiard robot, tank reconstruction (simulation), and a FRC Robot (as a team mentor).

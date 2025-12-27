@@ -1,0 +1,19 @@
+<figure>
+  <div
+    class="pdf-container"
+    style="width: 100%; height: {{ include.height | default: '800px' }}; border: 1px solid rgba(0,0,0,0.1); border-radius: 8px; overflow: hidden;"
+  >
+    <iframe
+      src="{{ include.path | relative_url }}"
+      width="100%"
+      height="100%"
+      frameborder="0"
+    >
+      This browser does not support PDFs. Please download the PDF to view it:
+      <a href="{{ include.path | relative_url }}">Download PDF</a>.
+    </iframe>
+  </div>
+  {% if include.caption %}
+    <figcaption class="caption">{{ include.caption }}</figcaption>
+  {% endif %}
+</figure>

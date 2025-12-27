@@ -26,3 +26,16 @@ figure.video-wide figcaption {
   font-style: italic;
   color: var(--global-text-color-light);
 }
+
+/* Utility for equal height images in a row */
+.img-equal-height {
+  height: 250px !important;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* PDF Container Styling */
+.pdf-container {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}

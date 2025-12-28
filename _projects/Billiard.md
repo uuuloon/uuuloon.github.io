@@ -1,18 +1,18 @@
 ---
 layout: page
 title: Billiard Car
-description: Capstone project I in National Taiwan University.
+description: Capstone Project I in National Taiwan University.
 img: assets/img/billiard.png
 redirect:
 importance: 3
 category: undergrad
 ---
 
-This project is done by 4 members, aiming to shoot as many balls as possible under time constraint. I was responsible for the machanical design of the billiard car, I also simulated the shooter machanism and validate its performance on real hardware. Below is the cam machanism for the shooter and a simple demo for the billiard function.
+This project was done by 4 members, aiming to shoot as many balls as possible under a time constraint. I was responsible for the mechanical design of the billiard car. I also simulated the shooter mechanism and validated simulation results through real hardware testing. The cam mechanism for the shooter and a simple demo for the billiard function are shown below.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0" style="flex: 0.94">
-        {% include figure.liquid path="assets/img/Cam_machanism.png" caption="Cam machanism" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Cam_mechanism.png" caption="Cam mechanism" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0" style="flex: 0.56">
         {% include figure.liquid path="assets/img/shooting_demo.gif" caption="Shooting demo" class="img-fluid rounded z-depth-1" %}

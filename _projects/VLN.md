@@ -8,6 +8,6 @@ importance: 1
 category: work
 ---
 
-This research is currently in progress. I'm exploring how robots can follow natural language instructions to navigate novel spaces.
+This research is currently in progress. I'm exploring how quadruped robots can follow natural language instructions to navigate novel spaces using vision-language models.
 
 Updates coming soon. Stay tuned!

@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Wind-powered tracking vehicle
-description: Capstone project II in National Taiwan University.
+title: Wind-powered Tracking Vehicle
+description: Capstone Project II in National Taiwan University.
 img: assets/img/wind_vehicle.png
 redirect:
 importance: 1
 category: undergrad
 ---
 
-This project is done by 5 members, aiming to design a wind-powered vehicle that can track desired path. I was responsible for the machanical design of the vehicle, including omni- and Ackermann-drive steering, and customized caster wheel assemblies. Below is the video demonstrating precise tracking.
+This project was done by 5 members, aimed to design a wind-powered vehicle that can track a desired path. I was responsible for the mechanical design of the vehicle, including omni-wheel and Ackermann-drive steering, and customized caster wheel assemblies. The video below demonstrates precise tracking.
 
 <figure class="video-wide" style="text-align:center">
   {% include video.liquid path="https://www.youtube.com/embed/71kvg5pbRgk" width="100%" %}

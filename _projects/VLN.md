@@ -8,6 +8,18 @@ importance: 1
 category: work
 ---
 
-This research is currently in progress. I'm exploring how quadruped robots can follow natural language instructions to navigate novel spaces using vision-language models.
+This research is currently in progress. I am exploring how quadruped robots can follow natural-language instructions to navigate novel environments using vision-language models.
 
-Updates coming soon. Stay tuned!
+Below are recent deployments demonstrating vision-language navigation on a quadruped robot in an indoor environment.
+
+<figure class="video-wide" style="text-align:center">
+  {% include video.liquid path="https://www.youtube.com/embed/UkpDGJSOVjo" width="100%" %}
+  <figcaption><em>Simple VLN task: following natural-language navigation instructions</em></figcaption>
+</figure>
+
+<figure class="video-wide" style="text-align:center">
+  {% include video.liquid path="https://www.youtube.com/embed/Lhw8eWcdAa8" width="100%" %}
+  <figcaption><em>Simple VLN tasks with detailed inference commands</em></figcaption>
+</figure>
+
+More updates coming soon. Stay tuned!

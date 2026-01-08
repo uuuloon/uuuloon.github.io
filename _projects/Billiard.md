@@ -14,9 +14,13 @@ This project was done by 4 members, aiming to shoot as many balls as possible un
     <div class="col-sm mt-3 mt-md-0" style="flex: 0.94">
         {% include figure.liquid path="assets/img/Cam_mechanism.png" caption="Cam mechanism" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0" style="flex: 0.56">
-        {% include figure.liquid path="assets/img/shooting_demo.gif" caption="Shooting demo" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0" style="flex: 1.49">
+        {% include figure.liquid path="assets/img/Cam_demo.gif" caption="Cam demo" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+
+<div class="row justify-content-sm-center">
+    {% include figure.liquid path="assets/img/shooting_demo.gif" caption="Billiard demo" class="img-fluid rounded z-depth-1" %}
 </div>
 
 For more technical details, the complete project report translated from Traditional Chinese is available below.

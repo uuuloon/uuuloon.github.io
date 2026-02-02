@@ -19,7 +19,7 @@ category: research
   </p>
 
   <figure class="video-wide" style="text-align:center">
-    {% include video.liquid path="https://www.youtube.com/embed/rkdNR5ZwDTQ" width="100%" %}
+    {% include video.liquid path="https://www.youtube.com/embed/W1D2wrUVy38" width="100%" %}
   </figure>
 </div>
 

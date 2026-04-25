@@ -54,8 +54,12 @@
       {% assign author_array_size = entry.author_array | size %}
 
       {% assign author_array_limit = author_array_size %}
-      {% if site.max_author_limit and author_array_size > site.max_author_limit %}
-        {% assign author_array_limit = site.max_author_limit %}
+      {% assign configured_author_limit = site.max_author_limit %}
+      {% if entry.max_author_limit %}
+        {% assign configured_author_limit = entry.max_author_limit | plus: 0 %}
+      {% endif %}
+      {% if configured_author_limit and author_array_size > configured_author_limit %}
+        {% assign author_array_limit = configured_author_limit %}
       {% endif %}
 
       {%- for author in entry.author_array limit: author_array_limit -%}
@@ -85,7 +89,7 @@
           {%- if forloop.last and author_array_limit == author_array_size %}and {% endif -%}
         {% endif %}
         {%- if author_is_self -%}
-          <em>
+          <em class="author-self">
             {{- author.first }}
             {{ author_last_html -}}
           </em>

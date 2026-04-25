@@ -229,7 +229,7 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 
 scholar:
   last_name: [Chou]
-  first_name: [Aaron]
+  first_name: [Aaron, Yu-Lun]
 
   style: apa
   locale: en

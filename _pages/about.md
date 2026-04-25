@@ -19,6 +19,6 @@ announcements:
   limit: 5
 ---
 
-I am an incoming Master’s student in the Robotic Systems Development program at <a href='https://www.cmu.edu/'>Carnegie Mellon University</a> and currently a Robotics Research Engineer at <a href='https://ai.inventec.com/en/'>Inventec AI</a>. My work focuses on quadruped robotics, with an emphasis on vision-language navigation, learning-based control, low-level control interface development, and sensor fusion.
+I am an incoming <a href='https://mrsd.ri.cmu.edu/'>MRSD</a> student in the <a href='https://www.ri.cmu.edu/'>Robotics Institute</a> (RI) at <a href='https://www.cmu.edu/'>Carnegie Mellon University</a>. I am also currently a Robotics Research Engineer at <a href='https://ai.inventec.com/en/'>Inventec AI</a>. My work focuses on vision-language navigation, 3D reconstruction, learning-based control, and sensor fusion. Before joining Inventec AI, I worked on autonomous mobile robots, developing docking, navigation, and localization systems for warehouse logistics.
 
 Previously, I received my B.Sc. in Mechanical Engineering from <a href='https://www.ntu.edu.tw/english/'>National Taiwan University.</a> During my undergraduate studies, I specialized in mechanical design and developed various robotic systems, including wind-powered vehicles, UAVs, a billiard robot, tank reconstruction simulations, and a FRC robot (as team mentor).

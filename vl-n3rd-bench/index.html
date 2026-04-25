@@ -25,15 +25,15 @@
   <link rel="apple-touch-icon" href="static/images/favicon.ico">
   
   <!-- Non-critical CSS - Load asynchronously -->
-  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   
   <!-- Fallback for browsers that don't support preload -->
   <noscript>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
   </noscript>
   
   <!-- Defer non-critical JavaScript -->
-  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
 </head>
 <body>
   <main>
@@ -42,25 +42,29 @@
         <div class="container is-max-desktop">
           <div class="columns is-centered">
             <div class="column has-text-centered">
-              <h1 class="title is-1 publication-title">
-                <span style="background:linear-gradient(90deg,#00c6ff,#0072ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">VL</span>-<span style="background:linear-gradient(90deg,#ff7e5f,#ffb199);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">N3RD</span>-Bench<img src="static/images/emoji.png" style="height:0.9em; vertical-align:-0.1em; margin-left:6px;">:
-                Benchmarking 
-                <span style="background:linear-gradient(90deg,#00c6ff,#0072ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">V</span>ision-<span style="background:linear-gradient(90deg,#00c6ff,#0072ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">L</span>anguage 
-                <span style="background:linear-gradient(90deg,#ff7e5f,#ffb199);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">N</span>avigation
-                with 
-                <span style="background:linear-gradient(90deg,#ff7e5f,#ffb199);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">3</span>D Gaussian 
-                <span style="background:linear-gradient(90deg,#ff7e5f,#ffb199);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">R</span>econstruction 
-                for 
-                <span style="background:linear-gradient(90deg,#ff7e5f,#ffb199);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">D</span>eployment
-              </h1>
+              <div class="publication-heading">
+                <h1 class="title is-1 publication-title">
+                  <span style="background:linear-gradient(90deg,#00c6ff,#0072ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">VL</span>-<span style="background:linear-gradient(90deg,#ff7e5f,#ffb199);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">N3RD</span>-Bench<img src="static/images/emoji.png" style="height:0.9em; vertical-align:-0.1em; margin-left:6px;" alt="">
+                </h1>
+                <h2 class="title is-2 publication-subtitle">
+                  Benchmarking
+                  <span style="background:linear-gradient(90deg,#00c6ff,#0073ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">V</span>ision-<span style="background:linear-gradient(90deg,#00c6ff,#0072ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">L</span>anguage
+                  <span style="background:linear-gradient(90deg,#ff7e5f,#ffb199);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">N</span>avigation
+                  with
+                  <span style="background:linear-gradient(90deg,#ff7e5f,#ffb199);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">3</span>D Gaussian
+                  <span style="background:linear-gradient(90deg,#ff7e5f,#ffb199);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">R</span>econstruction
+                  for
+                  <span style="background:linear-gradient(90deg,#ff7e5f,#ffb199);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">D</span>eployment
+                </h2>
+              </div>
               <div class="is-size-5 publication-authors">
                 <span class="author-block"><a href="https://uuuloon.github.io/" target="_blank" rel="noopener">Yu-Lun Chou</a><sup>*</sup>,</span>
                 <span class="author-block"><a href="https://richard98hess444.github.io/" target="_blank" rel="noopener">Lu-Ching Wang</a><sup>*</sup>,</span>
                 <span class="author-block"><a href="https://ysluo.github.io/" target="_blank" rel="noopener">Ying-Sheng Luo</a><sup>*</sup>,</span>
-                <span class="author-block"><a href="https://scholar.google.com/citations?user=QIBXdugAAAAJ&hl=en">Yu-Tang Liu</a>,</span>
-                <span class="author-block"><a href="https://scholar.google.com/citations?user=aBzDmTQAAAAJ&hl=en">Jeng-Lin Li</a></span>
+                <span class="author-block"><a href="https://scholar.google.com/citations?user=QIBXdugAAAAJ&hl=en" target="_blank" rel="noopener">Yu-Tang Liu</a>,</span>
+                <span class="author-block"><a href="https://scholar.google.com/citations?user=aBzDmTQAAAAJ&hl=en" target="_blank" rel="noopener">Jeng-Lin Li</a></span>
               </div>
-              <div class="publication-affiliation">
+              <div class="is-size-5 publication-affiliation">
                 Inventec Corporation<br>
                 <span class="eql-cntrb"><small><sup>*</sup>Indicates Equal Contribution</small></span>
               </div>
@@ -102,7 +106,7 @@
           <img src="static/images/fig1_teaser.png" alt="Overview of the VL-N3RD-Bench pipeline">
         </div>
         <p class="caption has-text-centered">
-          VL-N3RD-Bench reconstructs scenes with multiple 3D Gaussian Splatting pipelines, aligns them with collision geometry, and evaluates downstream navigation in simulation and the real world.
+          VL-N3RD-Bench reconstructs scenes from multi-view images using multiple 3D Gaussian Splatting pipelines, manually aligns them with collision geometry generated from SplaTAM, and evaluates downstream navigation in simulation and the real world.
         </p>
       </div>
     </section>
@@ -113,7 +117,7 @@
         <h2 class="title is-3 section-title has-text-centered">VLN Performance</h2>
 
         <p class="content has-text-centered">
-          Here we demonstrate successful and failure cases of the evaluated VLN pipelines across simulated environments reconstructed by 3DGUT and their real-world counterparts.
+          Here we present successful and failed cases of the evaluated VLN pipelines across simulated environments reconstructed by 3DGUT and their real-world counterparts. For simulation results from other pipelines, see <a href="https://drive.google.com/drive/folders/1Eh8EGJmXM3L8saEety5xnsc2tLz6l__I?usp=sharing" target="_blank" rel="noopener">here</a>.
         </p>
 
         <h3 class="title is-4 has-text-centered">Successful Cases</h3>
@@ -124,42 +128,42 @@
 
           <figure>
             <video controls preload="metadata">
-              <source src="static/videos_padded/sim_lobby_success.mp4" type="video/mp4">
+              <source src="static/videos/sim_lobby_success.mp4" type="video/mp4">
             </video>
             <figcaption>Lobby</figcaption>
           </figure>
 
           <figure>
             <video controls preload="metadata">
-              <source src="static/videos_padded/real_lobby_success.mp4" type="video/mp4">
+              <source src="static/videos/real_lobby_success.mp4" type="video/mp4">
             </video>
             <figcaption>Lobby</figcaption>
           </figure>
 
           <figure>
             <video controls preload="metadata">
-              <source src="static/videos_padded/sim_office_success.mp4" type="video/mp4">
+              <source src="static/videos/sim_office_success.mp4" type="video/mp4">
             </video>
             <figcaption>Office</figcaption>
           </figure>
 
           <figure>
             <video controls preload="metadata">
-              <source src="static/videos_padded/real_office_success.mp4" type="video/mp4">
+              <source src="static/videos/real_office_success.mp4" type="video/mp4">
             </video>
             <figcaption>Office</figcaption>
           </figure>
 
           <figure>
             <video controls preload="metadata">
-              <source src="static/videos_padded/sim_park_success.mp4#t=0.5" type="video/mp4">
+              <source src="static/videos/sim_park_success.mp4" type="video/mp4">
             </video>
             <figcaption>Park</figcaption>
           </figure>
 
           <figure>
             <video controls preload="metadata">
-              <source src="static/videos_padded/real_park_success.mp4" type="video/mp4">
+              <source src="static/videos/real_park_success.mp4" type="video/mp4">
             </video>
             <figcaption>Park</figcaption>
           </figure>
@@ -173,42 +177,42 @@
 
           <figure>
             <video controls preload="metadata">
-              <source src="static/videos_padded/sim_lobby_fail.mp4" type="video/mp4">
+              <source src="static/videos/sim_lobby_fail.mp4" type="video/mp4">
             </video>
             <figcaption>Lobby (stuck in the sofa chair)</figcaption>
           </figure>
 
           <figure>
             <video controls preload="metadata">
-              <source src="static/videos_padded/real_lobby_fail.mp4" type="video/mp4">
+              <source src="static/videos/real_lobby_fail.mp4" type="video/mp4">
             </video>
             <figcaption>Lobby (stuck in the sofa chair)</figcaption>
           </figure>
 
           <figure>
             <video controls preload="metadata">
-              <source src="static/videos_padded/sim_office_fail.mp4" type="video/mp4">
+              <source src="static/videos/sim_office_fail.mp4" type="video/mp4">
             </video>
             <figcaption>Office (stuck in the column)</figcaption>
           </figure>
 
           <figure>
             <video controls preload="metadata">
-              <source src="static/videos_padded/real_office_fail.mp4" type="video/mp4">
+              <source src="static/videos/real_office_fail.mp4" type="video/mp4">
             </video>
             <figcaption>Office (stuck in the corner)</figcaption>
           </figure>
 
           <figure>
             <video controls preload="metadata">
-              <source src="static/videos_padded/sim_park_fail.mp4" type="video/mp4">
+              <source src="static/videos/sim_park_fail.mp4" type="video/mp4">
             </video>
             <figcaption>Park (get lost)</figcaption>
           </figure>
 
           <figure>
             <video controls preload="metadata">
-              <source src="static/videos_padded/real_park_fail.mp4" type="video/mp4">
+              <source src="static/videos/real_park_fail.mp4" type="video/mp4">
             </video>
             <figcaption>Park (get lost)</figcaption>
           </figure>
@@ -246,13 +250,13 @@
         <div class="result-grid">
           <figure class="has-text-centered">
             <img src="static/images/table2.png" alt="Reconstruction performance across scenes and pipelines">
-            <h3 class=" ">Reconstruction Quality</h3>
-            <p class="caption has-text-centered">The benchmark compares visual fidelity through standard reconstruction metrics, runtime, and GPU memory trade-offs.</p>
+            <h3>Reconstruction Quality</h3>
+            <p class="caption has-text-centered">The benchmark compares visual fidelity through standard reconstruction metrics, runtime, and GPU memory trade-offs, highlighting Vid2Sim’s strongest overall fidelity, 3DGUT’s favorable quality-efficiency trade-off, and VGGT’s fast inference speed.</p>
           </figure>
           <figure class="has-text-centered">
             <img src="static/images/table3.png" alt="Vision-language navigation performance across customized datasets">
-            <h3 class="has-text-centered">Navigation Performance</h3>
-            <p class="caption has-text-centered">Downstream VLN success varies by scene and reconstruction method, highlighting limitations of visual metrics alone.</p>
+            <h3>Navigation Performance</h3>
+            <p class="caption has-text-centered">VLN success rates on Lobby, Office, and Park show that better reconstruction metrics can align with stronger indoor navigation, but do not consistently predict performance in more challenging outdoor scenes.</p>
           </figure>
         </div>
       </div>

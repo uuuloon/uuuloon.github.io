@@ -195,6 +195,35 @@
 
       <section class="section hero is-light">
         <div class="container is-max-desktop">
+          <div class="result-grid">
+            <figure>
+              <h2 class="title is-3 has-text-centered">Pipeline Comparison</h2>
+              <img src="static/images/table1.png" alt="Overview of evaluated 3DGS pipelines" />
+              <p class="caption has-text-centered">
+                Overview of evaluated 3DGS pipelines. 3DGUT, Vid2Sim, VGGT, and SplaTAM cover SfM-based optimization, feed-forward reconstruction, and
+                online RGB-D SLAM settings.
+              </p>
+            </figure>
+          </div>
+        </div>
+
+        <div class="container is-max-desktop">
+          <figure>
+            <img src="static/images/fig2_comparison.png" alt="Representative VLN experiments and reconstruction comparisons" />
+          </figure>
+          <p class="caption has-text-centered">
+            Representative real-world VLN experiments in the Office scene, including trajectory frames, language instructions, command outputs, and
+            render comparisons across reconstruction pipelines.
+          </p>
+        </div>
+      </section>
+
+      <!-- <section class="section hero is-light">
+        
+      </section> -->
+
+      <section class="section hero">
+        <div class="container is-max-desktop">
           <h2 class="title is-3 section-title has-text-centered">VLN Performance</h2>
 
           <p class="content has-text-centered">
@@ -203,7 +232,7 @@
             <a href="https://drive.google.com/drive/folders/1Eh8EGJmXM3L8saEety5xnsc2tLz6l__I?usp=sharing" target="_blank" rel="noopener">here</a>.
           </p>
 
-          <h3 class="title is-4 has-text-centered">Successful Cases</h3>
+          <h3 class=".title.is-3 has-text-centered">Successful Cases</h3>
 
           <div class="vln-grid">
             <div class="vln-header">Simulation</div>
@@ -252,7 +281,7 @@
             </figure>
           </div>
 
-          <h3 class="title is-4 has-text-centered" style="margin-top: 2rem">Failed Cases</h3>
+          <h3 class=".title.is-3 has-text-centered" style="margin-top: 2rem">Failed Cases</h3>
 
           <div class="vln-grid">
             <div class="vln-header">Simulation</div>
@@ -302,32 +331,6 @@
           </div>
         </div>
       </section>
-      <section class="section">
-        <div class="container is-max-desktop">
-          <div class="result-grid">
-            <figure>
-              <h2 class="title is-3 has-text-centered">Pipeline Comparison</h2>
-              <img src="static/images/table1.png" alt="Overview of evaluated 3DGS pipelines" />
-              <p class="caption has-text-centered">
-                Overview of evaluated 3DGS pipelines. 3DGUT, Vid2Sim, VGGT, and SplaTAM cover SfM-based optimization, feed-forward reconstruction, and
-                online RGB-D SLAM settings.
-              </p>
-            </figure>
-          </div>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="container is-max-desktop">
-          <figure>
-            <img src="static/images/fig2_comparison.png" alt="Representative VLN experiments and reconstruction comparisons" />
-          </figure>
-          <p class="caption has-text-centered">
-            Representative real-world VLN experiments in the Office scene, including trajectory frames, language instructions, command outputs, and
-            render comparisons across reconstruction pipelines.
-          </p>
-        </div>
-      </section>
 
       <section class="section hero is-light">
         <div class="container is-max-desktop">
@@ -342,7 +345,11 @@
               </p>
             </figure>
             <figure class="has-text-centered">
-              <img src="static/images/table3.png" alt="Vision-language navigation performance across customized datasets" />
+              <img
+                src="static/images/table3.png"
+                alt="Vision-language navigation performance across customized datasets"
+                style="width: 75%; height: auto"
+              />
               <h3>Navigation Performance</h3>
               <p class="caption has-text-centered">
                 VLN success rates on Lobby, Office, and Park show that better reconstruction metrics can align with stronger indoor navigation, but do

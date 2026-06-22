@@ -16,9 +16,9 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true
   scrollable: true
-  limit: 5
+  limit: 3
 ---
 
-I am an incoming <a href='https://mrsd.ri.cmu.edu/'>MRSD</a> student in the <a href='https://www.ri.cmu.edu/'>Robotics Institute</a> (RI) at <a href='https://www.cmu.edu/'>Carnegie Mellon University</a>. I am also currently a Robotics Research Engineer at <a href='https://ai.inventec.com/en/'>Inventec AI</a>. My work focuses on vision-language navigation, 3D reconstruction, learning-based control, and sensor fusion. Before joining Inventec AI, I worked on autonomous mobile robots, developing docking, navigation, and localization systems for warehouse logistics.
+I am an incoming <a href='https://mrsd.ri.cmu.edu/'>MRSD</a> student in the <a href='https://www.ri.cmu.edu/'>Robotics Institute</a> (RI) at <a href='https://www.cmu.edu/'>Carnegie Mellon University</a>. I have 3 years of working experience spanning quadruped robotics (vision-language navigation, learning-based control), 3D reconstruction, sensor fusion, and autonomous mobile robots for warehouse logistics.
 
-Previously, I received my B.Sc. in Mechanical Engineering from <a href='https://www.ntu.edu.tw/english/'>National Taiwan University.</a> During my undergraduate studies, I specialized in mechanical design and developed various robotic systems, including wind-powered vehicles, UAVs, a billiard robot, tank reconstruction simulations, and a FRC robot (as team mentor).
+Previously, I received my B.Sc. in Mechanical Engineering from <a href='https://www.ntu.edu.tw/english/'>National Taiwan University</a>. During my undergraduate studies, I specialized in mechanical design and developed various robotic systems, including wind-powered vehicles, UAVs, FRC robot (as team mentor), etc.

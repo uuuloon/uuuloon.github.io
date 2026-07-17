@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper VL-N3RD-Bench: Benchmarking Vision-Language Navigation with 3D Gaussian Splatting Reconstruction for Deployment” is accepted to ICRA 2026 Workshop – From Data to Decisions: VLA Pipelines for Real Robots!
+Our paper [VL-N3RD-Bench](https://inventec-ai-center.github.io/vl-n3rd-bench/) is accepted to [ICRA 2026 VLA Pipelines Workshop](https://icra2026vlapipeline.github.io/)!

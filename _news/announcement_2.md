@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper "Feasibility-Guided Planning over Multi-Specialized Locomotion Policies" is accepted to ICRA 2026!
+Our paper [Feasibility-Guided Planning over Multi-Specialized Locomotion Policies](https://inventec-ai-center.github.io/feasibility-guided-planning/) is accepted to ICRA 2026!

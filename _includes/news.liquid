@@ -1,33 +1,79 @@
 <div class="news">
   {% if site.news != blank %}
     {% assign news_size = site.news | size %}
-    <div
-      class="table-responsive"
-      {% if include.limit and page.announcements.scrollable and news_size > 3 %}
-        style="max-height: 60vw"
-      {% endif %}
-    >
+    {% assign news = site.news | reverse %}
+    {% if include.limit and page.announcements.limit %}
+      {% assign news_limit = page.announcements.limit %}
+    {% else %}
+      {% assign news_limit = news_size %}
+    {% endif %}
+    <div class="table-responsive">
       <table class="table table-sm table-borderless">
-        {% assign news = site.news | reverse %}
-        {% if include.limit and page.announcements.limit %}
-          {% assign news_limit = page.announcements.limit %}
-        {% else %}
-          {% assign news_limit = news_size %}
+        <tbody>
+          {% for item in news limit: news_limit %}
+            <tr>
+              <th scope="row" style="width: 20%">{{ item.date | date: '%B, %Y' }}</th>
+              <td>
+                {% if item.inline %}
+                  {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                {% else %}
+                  <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                {% endif %}
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+        {% if news_size > news_limit %}
+          <tbody class="collapse" id="news-more">
+            {% assign news_remaining = news_size | minus: news_limit %}
+            {% for item in news offset: news_limit limit: news_remaining %}
+              <tr>
+                <th scope="row" style="width: 20%">{{ item.date | date: '%B, %Y' }}</th>
+                <td>
+                  {% if item.inline %}
+                    {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                  {% else %}
+                    <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                  {% endif %}
+                </td>
+              </tr>
+            {% endfor %}
+          </tbody>
         {% endif %}
-        {% for item in news limit: news_limit %}
-          <tr>
-            <th scope="row" style="width: 20%">{{ item.date | date: '%B, %Y' }}</th>
-            <td>
-              {% if item.inline %}
-                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-              {% else %}
-                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-              {% endif %}
-            </td>
-          </tr>
-        {% endfor %}
       </table>
     </div>
+    {% if news_size > news_limit %}
+      <div class="text-center">
+        <a
+          class="news-toggle"
+          data-toggle="collapse"
+          href="#news-more"
+          role="button"
+          aria-expanded="false"
+          aria-controls="news-more"
+        >
+          <span class="news-toggle-label-more">Show more <i class="fas fa-chevron-down"></i></span>
+          <span class="news-toggle-label-less" style="display: none">Show less <i class="fas fa-chevron-up"></i></span>
+        </a>
+      </div>
+      <script>
+        window.addEventListener('load', function () {
+          var $newsMore = $('#news-more');
+          if (!$newsMore.length) return;
+          var $toggle = $('.news-toggle[href="#news-more"]');
+          var $moreLabel = $toggle.find('.news-toggle-label-more');
+          var $lessLabel = $toggle.find('.news-toggle-label-less');
+          $newsMore.on('show.bs.collapse', function () {
+            $moreLabel.hide();
+            $lessLabel.show();
+          });
+          $newsMore.on('hide.bs.collapse', function () {
+            $lessLabel.hide();
+            $moreLabel.show();
+          });
+        });
+      </script>
+    {% endif %}
   {% else %}
     <p>No news so far...</p>
   {% endif %}

@@ -200,8 +200,11 @@ ul.task-list input[type="checkbox"] {
 
   .more-info {
     margin-bottom: 5px;
-    margin-top: 5px;
-    font-family: monospace;
+    margin-top: 8px;
+    font-size: 0.75rem;
+    line-height: 1.4;
+    text-align: center;
+    opacity: 0.8;
 
     p {
       display: inline-block;

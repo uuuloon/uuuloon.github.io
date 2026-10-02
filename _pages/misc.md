@@ -8,7 +8,7 @@ nav: true
 nav_order: 6
 ---
 
-During my free time, I enjoy playing badminton, pickleball, singing (J-pop, Western, and of course local ones) and previewing CMU's 16-831 🤓. I am also a bit of an Otaku or Weeaboo, whatever you call it.
+During my free time, I enjoy playing pickleball, badminton, singing (J-pop & Western). I am also a bit of an Otaku or Weeaboo, whatever you call it.
 
 ### Music
 
@@ -26,6 +26,7 @@ I think HIMYM is the only one that I finished and rewatched afterward. I have al
 
 ### Some fun facts about me
 
+1. Lucky seven: CMU has seven schools/colleges, our School of Computer Science has seven departments, and my birthday is also 07/07. Coincidence? I think NOT!
 1. I started working (internship) on the day I arrived in the US and found housing on the same day.
 1. My Japanese co-worker said I know so much J-pop because I can name some songs just from hearing the intro.
 1. I spent some time searching for the MBTI types of anime characters I'm interested in and ran some statistics (n = 35). Here's the result:

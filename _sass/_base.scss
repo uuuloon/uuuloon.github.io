@@ -417,6 +417,27 @@ ul.task-list input[type="checkbox"] {
 .social {
   text-align: center;
 
+  // Smaller icons under the profile picture (profile.more_info_social)
+  .contact-icons.small-icons {
+    font-size: 1.75rem;
+
+    a {
+      margin: 0 0.25rem;
+
+      img {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-bottom: 0;
+      }
+
+      svg {
+        width: 1.6rem;
+        height: 1.75rem;
+        margin-bottom: 0;
+      }
+    }
+  }
+
   .contact-icons {
     font-size: 4rem;
 
